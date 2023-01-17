@@ -1,0 +1,30 @@
+{
+  "name": "habitos-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglaswcastro/Habitos-Back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglaswcastro/Habitos-Back/issues"
+  },
+  "homepage": "https://github.com/douglaswcastro/Habitos-Back#readme",
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@prisma/client": "^4.8.1",
+    "fastify": "^4.11.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.8.1",
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.4"
+  }
+}
